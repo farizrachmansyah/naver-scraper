@@ -20,6 +20,7 @@ This project challenge is to build a scalable and undetectable API that scrapes 
    ```
 
 3. **Configure Proxy**
+
    Create a `.env` file in the project root:
 
    ```bash
