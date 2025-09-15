@@ -67,7 +67,7 @@ async function _scrape(url, attemptNum = 0) {
     launchArgs.push(`--proxy-server=${parsedProxy.host}:${parsedProxy.port}`);
   }
 
-  const browser = await puppeteer.launch({ headless: false, args: launchArgs, defaultViewport: null });
+  const browser = await puppeteer.launch({ headless: true, args: launchArgs, defaultViewport: null });
   const debugPrefix = `debug_${Date.now()}_${Math.floor(Math.random() * 1000)}`;
 
   try {
