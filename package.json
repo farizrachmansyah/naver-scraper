@@ -1,0 +1,26 @@
+{
+  "name": "naver-scraper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bottleneck": "^2.19.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "proxy-chain": "^2.5.9",
+    "puppeteer": "^24.20.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
