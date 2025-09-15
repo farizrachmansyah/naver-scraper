@@ -59,7 +59,7 @@ The scraper (`src/scraper.js`) implements several strategies:
   - Uses [`puppeteer-extra-plugin-stealth`](https://github.com/berstend/puppeteer-extra/tree/master/packages/puppeteer-extra-plugin-stealth).
   - Randomized User-Agents and viewport sizes.
   - Fakes WebGL vendor strings, navigator properties, plugins, languages, and time zone (`Asia/Seoul`).
-  - Human-like interactions (mouse movement, scrolls, random delays).
+  - Human-like interactions (random delays).
 
 - **Proxy usage**
 
