@@ -2,8 +2,6 @@
 
 This project challenge is to build a scalable and undetectable API that scrapes product detail data from smartstore.naver.com. The scraper must retrieve JSON data from the page’s global variable **PRELOADED_STATE**.
 
----
-
 ## 📦 Setup Instructions
 
 1. **Clone the repository**
@@ -27,8 +25,6 @@ This project challenge is to build a scalable and undetectable API that scrapes 
    PROXY=host:port:user:pass
    ```
 
----
-
 ## ▶️ Run / Test Instructions
 
 1. **Start the API server**
@@ -48,8 +44,6 @@ This project challenge is to build a scalable and undetectable API that scrapes 
 3. **Output**
    - On success: returns the parsed `__PRELOADED_STATE__` JSON.
    - On failure: returns an error object with optional debug screenshot for inspection.
-
----
 
 ## 🔍 Scraper Explanation
 
@@ -78,8 +72,6 @@ The scraper (`src/scraper.js`) implements several strategies:
 
 - **Debug artifacts**
   - On error, the scraper saves a screenshot (`*_block.png`) for diagnosis.
-
----
 
 ## 💡 Example API Usage
 
